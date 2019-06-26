@@ -1,0 +1,1 @@
+HostName=iotc-99de7a4a-6a59-4682-b4c5-74fd932dc5c1.azure-devices.net;DeviceId=7dff1549-9604-4552-aa7c-d6748947c1e9;SharedAccessKey=2BGg4kRs5jIfJq4MeN4Pele7+xOxQmYNvIfEi28kQhc=
