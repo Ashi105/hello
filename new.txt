@@ -1,0 +1,48 @@
+Thats the service expose by them to expose data through the REST API and example was given by them.  What data to be read and exposed as said in the intitial discussion should be provided or written by us.  In this case you have to programatically retrieve data from Data lake and expose it via REST
+
+
+[?30-?07-?2019 15:55]  Ganesh S K:  
+since we have data spread across multiple csv that is needed
+
+ 
+say if user hit the REST API 
+
+http://webservicename:port/getData?from=01-01-2011&to=30=12-2012
+it should give a comma separatted or json data for that period
+
+
+[?31-?07-?2019 14:29]  Ganesh S K:  
+you were clear till yesterday ?
+what hpnd ?
+I repeatedly mentioned requirement is to expose the data from data lake through Azure REST API
+data to be returned in JSON or comma separated
+ 
+[?31-?07-?2019 14:30]  Ganesh S K:  
+for the specified date range
+thats the task
+ 
+[?31-?07-?2019 14:33]  Ganesh S K:  
+Data is there in Data explorer
+i showed during the demo as well last week by sharing desktop with all
+tdy morning u mentioned permission issue
+i added permission now
+Due to various other prob, till yesterday u didn't had remote access to check this.
+Now permission for your user is updated for data lake you should be able to see the data in data lake
+ 
+And while doing the task, pl ensure no data is deleted
+i have simulators running in background to populate the data
+once you are done with exposing data next demo can be shown
+
+
+[?31-?07-?2019 16:23]  Ganesh S K:  
+this REST API link what you shared is to fetch the details of the data in a file in data lake
+ 
+[?31-?07-?2019 16:24]  Ganesh S K:  
+as you know our requirement is fetch the data across the files
+ 
+[?31-?07-?2019 16:24]  Ganesh S K:  
+there might not be readily available service for you to give that data
+ 
+[?31-?07-?2019 16:24]  Ganesh S K:  
+thats the reason you need to implement it
+ 
