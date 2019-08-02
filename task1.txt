@@ -1,0 +1,17 @@
+Hi Ashi,
+
+We spoke in the morning, below is the summary of the task.  Please ensure that you complete the below task by Monday.
+
+I had a shared IoT simulator java source code to you last week.  In that request to do following changes
+            1) Glance the energy consumption data of 4 years and arrive on max and min energy consumption value for each month
+            2) Write a small java program to read through all the csv file and create a property file with unique MACIDs from that.
+                        Example:
+                        macids:  [macid1,macid2,macid3,….]
+            3) Current code reads the data from csv and send to IoT by reading data from csv and sends to IoT.
+            3) Use the current code as references and create a new project which reads the macids from the property file created in step#2 and send the simulated energy consumption value to IoT (use the IoT free resource created by you for sending data).
+            4) Simulated value should be sent in a frequency of every 30 mins (Configurable).  For value simulation use the random number with minimum and max value which you noted down in step1 
+           
+Ensure you follow the coding standards while doing the task, don't create any random file and share the partial output, Task is considered as completed only when your program is able to send the message continuously in a frequency of 30 mins for all 5500 smart meters in the csv file. 
+
+Thanks & Regards,
+S.K. Ganesh
